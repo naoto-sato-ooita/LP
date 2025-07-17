@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "title": "Sealcraft: Lightning Legacy",
+    "subtitle": "Connect the path with insight!",
+    "cta": "Download on App Store"
+  },
+  "story": {
+    "title": "Story",
+    "background": "100 years ago, heroes risked their lives to seal the Dragon King. That seal is now beginning to crumble.",
+    "mission": "Dodge the Dragon King's attacks and complete the sealing circuit!"
+  },
+  "features": {
+    "title": "Game Features",
+    "feature1": {
+      "title": "Fantasy Job Experience",
+      "description": "You become a Seal Master belonging to the Guild, taking on the Dragon King's sealing operations"
+    },
+    "feature2": {
+      "title": "Test Your Insight",
+      "description": "Decipher complex attack patterns and devise placement strategies"
+    },
+    "feature3": {
+      "title": "Expanding Strategy",
+      "description": "Collect materials from stage clears and create new tools"
+    }
+  },
+  "benefits": {
+    "title": "Perfect for You",
+    "benefit1": "Free to Play",
+    "benefit2": "Few Controls to Learn, But Requires Thinking",
+    "benefit3": "Enjoy a Volume of Gameplay Similar to Famicom"
+  },
+  "cta": {
+    "title": "Get Release Updates",
+    "subtitle": "We'll notify you by email when the game is released",
+    "placeholder": "Enter your email address",
+    "button": "Subscribe"
+  },
+  "footer": {
+    "developer": "STADIO KATAOKA",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "language": "Language"
+} 

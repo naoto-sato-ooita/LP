@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="雷環の封龍士 - 洞察力で活路を繋げ！龍王の攻撃を搔い潜り、封印回路を完成させよう。基本無料のスマートフォン向けパズルゲーム。">
+    <meta name="keywords" content="雷環の封龍士,Sealcraft,Lightning Legacy,パズルゲーム,スマートフォンゲーム,封龍士">
+    <meta name="author" content="STADIO KATAOKA">
+    <meta property="og:title" content="雷環の封龍士 - Sealcraft: Lightning Legacy">
+    <meta property="og:description" content="洞察力で活路を繋げ！龍王の攻撃を搔い潜り、封印回路を完成させよう。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sealcraft.app">
+    <meta property="og:image" content="https://sealcraft.app/images/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>雷環の封龍士 - Sealcraft: Lightning Legacy</title>
+    
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <button class="lang-btn" data-lang="ja">日本語</button>
+        <button class="lang-btn active" data-lang="en">English</button>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero animate__animated animate__fadeInDown">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <h1 class="hero-title" data-i18n="hero.title">Sealcraft: Lightning Legacy</h1>
+            <p class="hero-subtitle" data-i18n="hero.subtitle">Connect the path with insight!</p>
+            <div class="hero-cta">
+                <a href="#" class="appstore-btn">
+                    <img src="images/appstore-badge.svg" alt="Download on App Store" class="appstore-badge">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="story">
+        <div class="container">
+            <h2 class="section-title" data-i18n="story.title">Story</h2>
+            <div class="story-content">
+                <p class="story-text" data-i18n="story.background">For 100 years, heroes risked their lives to seal the Dragon King. That seal is now beginning to crumble.</p>
+                <p class="story-text" data-i18n="story.mission">Dodge the Dragon King's attacks and complete the sealing circuit!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title" data-i18n="features.title">Game Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3 class="feature-title" data-i18n="features.feature1.title">Fantasy Job Experience</h3>
+                    <p class="feature-description" data-i18n="features.feature1.description">You become a Seal Master belonging to the Guild, taking on the Dragon King's sealing operations</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3 class="feature-title" data-i18n="features.feature2.title">Test Your Insight</h3>
+                    <p class="feature-description" data-i18n="features.feature2.description">Decipher complex attack patterns and devise placement strategies</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chess"></i>
+                    </div>
+                    <h3 class="feature-title" data-i18n="features.feature3.title">Expanding Strategy</h3>
+                    <p class="feature-description" data-i18n="features.feature3.description">Collect materials from stage clears and create new tools</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+        <div class="container">
+            <h2 class="section-title" data-i18n="benefits.title">Perfect for You</h2>
+            <div class="benefits-list">
+                <div class="benefit-item">
+                    <i class="fas fa-gift"></i>
+                    <span data-i18n="benefits.benefit1">Free to Play</span>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-hand-pointer"></i>
+                    <span data-i18n="benefits.benefit2">Easy Controls</span>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-heart"></i>
+                    <span data-i18n="benefits.benefit3">Simple and Relaxing</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta animate__animated animate__fadeInRight">
+        <div class="container">
+            <h2 class="cta-title" data-i18n="cta.title">Get Release Updates</h2>
+            <p class="cta-subtitle" data-i18n="cta.subtitle">We'll notify you by email when the game is released</p>
+            <form class="email-form" id="emailForm">
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" data-i18n-placeholder="cta.placeholder" required>
+                    <button type="submit" class="submit-btn" data-i18n="cta.button">Subscribe</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p class="developer" data-i18n="footer.developer">STADIO KATAOKA</p>
+                    <a href="mailto:kataoka@sealcraft.app" class="contact-link" data-i18n="footer.contact">Contact</a>
+                </div>
+                <div class="footer-links">
+                    <a href="#" class="footer-link" data-i18n="footer.privacy">Privacy Policy</a>
+                    <a href="#" class="footer-link" data-i18n="footer.terms">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html> 

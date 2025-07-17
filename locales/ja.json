@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "title": "雷環の封龍士",
+    "subtitle": "洞察力で活路を繋げ！",
+    "cta": "App Storeでダウンロード"
+  },
+  "story": {
+    "title": "物語",
+    "background": "100年前、勇者たちが命を懸けて封印した龍王。その封印が崩れつつある",
+    "mission": "龍王の攻撃を搔い潜り、封印回路を完成させよう"
+  },
+  "features": {
+    "title": "ゲームの特徴",
+    "feature1": {
+      "title": "異世界で職業体験",
+      "description": "あなたはギルドに所属する封龍士となり、龍王の封印業務にあたります"
+    },
+    "feature2": {
+      "title": "試される洞察力",
+      "description": "複雑な攻撃パターンを見破り、配置戦略を導き出せ"
+    },
+    "feature3": {
+      "title": "広がる戦略",
+      "description": "ステージクリアで得られる材料を集め、新たな道具を作り出そう"
+    }
+  },
+  "benefits": {
+    "title": "こんな方におすすめ",
+    "benefit1": "基本無料",
+    "benefit2": "覚えることは少なく、頭は使う",
+    "benefit3": "ファミコンくらいのボリューム感で遊びたい"
+  },
+  "cta": {
+    "title": "リリース情報をお届け",
+    "subtitle": "リリース時にメールでお知らせします",
+    "placeholder": "メールアドレスを入力",
+    "button": "登録する"
+  },
+  "footer": {
+    "developer": "STADIO KATAOKA",
+    "contact": "お問い合わせ",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約"
+  },
+  "language": "言語"
+} 

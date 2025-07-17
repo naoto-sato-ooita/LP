@@ -1,0 +1,283 @@
+/* Mobile First Responsive Design */
+
+/* Extra Small devices (phones, 576px and down) */
+@media (max-width: 575.98px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+        margin-bottom: 40px;
+    }
+    
+    .story-text {
+        font-size: 1rem;
+    }
+    
+    .feature-card {
+        padding: 30px 20px;
+    }
+    
+    .feature-title {
+        font-size: 1.3rem;
+    }
+    
+    .feature-description {
+        font-size: 0.9rem;
+    }
+    
+    .benefit-item {
+        font-size: 1rem;
+    }
+    
+    .cta-title {
+        font-size: 2rem;
+    }
+    
+    .cta-subtitle {
+        font-size: 1rem;
+    }
+    
+    .form-group input[type="email"] {
+        padding: 12px 16px;
+        font-size: 0.9rem;
+    }
+    
+    .submit-btn {
+        padding: 12px 24px;
+        font-size: 0.9rem;
+    }
+    
+    .language-switcher {
+        top: 15px;
+        right: 15px;
+    }
+    
+    .lang-btn {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .features-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .benefits-list {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .hero-title {
+        font-size: 3rem;
+    }
+    
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    
+    .benefits-list {
+        gap: 40px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .features-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 35px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1400px;
+    }
+    
+    .hero-title {
+        font-size: 4rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.8rem;
+    }
+}
+
+/* Landscape orientation adjustments */
+@media (orientation: landscape) and (max-height: 600px) {
+    .hero {
+        height: 100vh;
+        padding: 20px 0;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+    }
+    
+    .hero-cta {
+        margin-top: 20px;
+    }
+}
+
+/* High DPI displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .appstore-badge {
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
+    }
+}
+
+/* Reduced motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    
+    .hero-background {
+        animation: none;
+    }
+    
+    .hero-title {
+        animation: none;
+    }
+}
+
+/* ダークモードと青白い雷のテーマ */
+@media (prefers-color-scheme: dark) {
+    body {
+        background: linear-gradient(135deg, #1E3A8A 0%, #4A90E2 100%);
+        color: #F0F8FF;
+    }
+    
+    .hero-background {
+        background: linear-gradient(135deg, #1E3A8A 0%, #4A90E2 100%);
+        opacity: 0.9;
+    }
+    
+    .hero-title {
+        color: #F0F8FF;
+        text-shadow: 
+            0 0 15px rgba(255, 255, 255, 0.6),
+            0 0 30px #4A90E2,
+            0 0 40px #87CEEB;
+    }
+    
+    .hero-subtitle {
+        color: #E6F2FF;
+        text-shadow: 0 0 10px rgba(74, 144, 226, 0.5);
+    }
+    
+    .section-title {
+        color: #F0F8FF;
+        text-shadow: 0 0 15px rgba(74, 144, 226, 0.5);
+    }
+    
+    .feature-card {
+        background: rgba(255, 255, 255, 0.05);
+        border-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    .feature-icon {
+        color: white;
+        text-shadow: 0 0 15px rgba(74, 144, 226, 0.5);
+    }
+}
+
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+    .lang-btn:hover {
+        transform: none;
+    }
+    
+    .feature-card:hover {
+        transform: none;
+    }
+    
+    .submit-btn:hover {
+        transform: none;
+    }
+    
+    .appstore-btn:hover {
+        transform: none;
+    }
+    
+    /* Increase touch targets */
+    .lang-btn {
+        min-height: 44px;
+        min-width: 44px;
+    }
+    
+    .submit-btn {
+        min-height: 44px;
+    }
+    
+    .form-group input[type="email"] {
+        min-height: 44px;
+    }
+}
+
+/* Print styles */
+@media print {
+    .language-switcher,
+    .hero-cta,
+    .email-form {
+        display: none;
+    }
+    
+    body {
+        background: white;
+        color: black;
+    }
+    
+    .hero-title,
+    .section-title,
+    .feature-title {
+        color: black;
+        text-shadow: none;
+    }
+    
+    .story-text,
+    .feature-description,
+    .benefit-item {
+        color: black;
+    }
+} 
