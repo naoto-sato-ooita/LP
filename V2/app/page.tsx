@@ -17,8 +17,8 @@ export default function Home() {
     ja: {
       title: "雷環の封龍士",
       subtitle: "Sealcraft: Lightning Legacy",
-      catchphrase: "洞察力で活路を繋げ！",
-      story: "100年、勇者たちが命を懸けて封印した龍王。その封印が崩れつつある。龍王の攻撃を搔い潜り、封印回路を完成させよう。",
+      catchphrase: "あなたの洞察力で活路を見出せ！",
+      story: "100年前、勇者たちが命を懸けて封印した龍王。その封印が解かれつつある。龍王の攻撃を搔い潜り、封印回路を完成させよう。",
       features: {
         experience: "異世界で職業体験",
         experienceDesc: "あなたはギルドに所属する封龍士となり、龍王の封印業務にあたります",
@@ -30,9 +30,9 @@ export default function Home() {
       testimonials: [
         "基本無料",
         "簡単操作", 
-        "シンプルだから気楽にできる"
+        "スキマ時間に丁度いいボリューム感"
       ],
-      cta: "リマインド登録",
+      cta: "リリースリマインド登録",
       email: "メールアドレス",
       submit: "登録する"
     },
@@ -40,7 +40,7 @@ export default function Home() {
       title: "Sealcraft",
       subtitle: "Lightning Legacy",
       catchphrase: "Connect the path with insight!",
-      story: "For 100 years, heroes have risked their lives to seal the Dragon King. That seal is beginning to crumble. Evade the Dragon King's attacks and complete the sealing circuit.",
+      story: "100 years ago, heroes have risked their lives to seal the Dragon King. That seal is beginning to crumble. Evade the Dragon King's attacks and complete the sealing circuit.",
       features: {
         experience: "Fantasy Job Experience",
         experienceDesc: "You become a Dragon Sealer belonging to a guild, tasked with sealing the Dragon King",
@@ -52,9 +52,9 @@ export default function Home() {
       testimonials: [
         "Free to play",
         "Simple controls",
-        "Simple and relaxing"
+        "The volume is just right for your spare time."
       ],
-      cta: "Reminder Registration", 
+      cta: "Release Reminder Registration", 
       email: "Email Address",
       submit: "Register"
     }
